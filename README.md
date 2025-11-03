@@ -48,8 +48,11 @@ YT/News-Agent/
 │   ├── 1_clean_news.py
 │   ├── 2_load_to_chromadb.py
 │   └── filtered_english_output.json
+├── chroma_db/               # ChromaDB persistent store (created after loading)
 ├── news_app/
-│   └── ui.py                # Streamlit UI
+│   └── ui.py                # Streamlit app entry (run this)
+├── imgs/
+│   └── architecture_diagram.png
 ├── .gitignore
 └── README.md
 ```
