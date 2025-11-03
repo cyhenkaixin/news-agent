@@ -41,7 +41,7 @@ coverage.xml
 .streamlit/secrets.toml
 
 # SQLite databases
-*.sqlite3
+# *.sqlite3
 
 # Presentations and binaries backups
 ~$*.pptx
