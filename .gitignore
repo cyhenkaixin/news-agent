@@ -1,0 +1,57 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Caches
+.mypy_cache/
+.pytest_cache/
+.cache/
+
+# Coverage
+.coverage
+.coverage.*
+coverage.xml
+
+# Environment files
+.env
+.env.*
+
+# Streamlit
+.streamlit/secrets.toml
+
+# SQLite databases
+*.sqlite3
+
+# Presentations and binaries backups
+~$*.pptx
+
+# Node (if present)
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+
+# Backups
+**/backup/
+
+
